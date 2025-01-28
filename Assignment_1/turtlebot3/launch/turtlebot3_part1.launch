@@ -1,7 +1,0 @@
-<launch>
-  <!-- Launch the Gazebo simulation -->
-  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch"/>
-
-  <!-- Run the custom publisher node -->
-  <node pkg="turtlebot3" type="command_pub_part1.py" name="command_pub_part1" output="screen"/>
-</launch>
